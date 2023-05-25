@@ -12,36 +12,68 @@
 </head>
 
 <body>
-  <!-- <header>
-    <div id="areia"></div>
-     <div id="logo">
-        <div id="skol"></div>
-        <div class="preenchimento">
-          <div class="imagem"></div>
-        </div>
-      </div> 
-    <div id="top-logo"></div>
-    <div id="cards">
-      <div class="card">a</div>
-      <div class="card">b</div>
-      <div class="card">c</div>
-      <div class="card">d</div>
-    </div>
-  </header> -->
-
   <div id="top">
     <div class="logo">
       <img src="assets/img/skol.webp" alt="Skol" title="Skol" />
     </div>
-    <div class="logo-evento"></div>
-    <div>datas</div>
+    <div id="logo-evento"></div>
+    <div id="eventos">
+      <img class="evento" src="/assets/img/feijoada_do_zeca.webp" alt="Feijoada do Zeca" />
+      <img class="evento" src="/assets/img/arena_pop.webp" alt="Arena Pop" />
+      <img class="evento" src="/assets/img/pre_carna.webp" alt="Pré Carna Skol" />
+      <img class="evento" src="/assets/img/peixada_do_gui.webp" alt="Peixada do GUI" />
+    </div>
   </div>
 
   <main>
-    <div id="mapas"></div>
-    <div id="sobre"></div>
-    <div id="localizacao"></div>
-    <div>
+    <div id="mapas">
+      <div class="mapa">
+        <div class="texto">Mapa de Palco</div>
+        <div class="icon"><object type="image/svg+xml" data="assets/img/icon/marker_map.svg" class="svg"></object></div>
+        <a href="#">CLIQUE E CONHEÇA</a>
+      </div>
+      <div class="mapa" style="opacity: 0.5;">
+        <div class="texto">Mapa de Palco</div>
+        <div class="icon"><object type="image/svg+xml" data="assets/img/icon/marker_map.svg" class="svg"></object></div>
+        <a href="#">CLIQUE E CONHEÇA</a>
+      </div>
+      <div class="mapa" style="opacity: 0.5;">
+        <div class="texto">Mapa de Palco</div>
+        <div class="icon"><object type="image/svg+xml" data="assets/img/icon/marker_map.svg" class="svg"></object></div>
+        <a href="#">CLIQUE E CONHEÇA</a>
+      </div>
+      <div class="mapa" style="opacity: 0.5;">
+        <div class="texto">Mapa de Palco</div>
+        <div class="icon"><object type="image/svg+xml" data="assets/img/icon/marker_map.svg" class="svg"></object></div>
+        <a href="#">CLIQUE E CONHEÇA</a>
+      </div>
+    </div>
+    <div id="sobre" class="container">
+      <div class="info">
+        <p class="titulo">Sobre Arena</p>
+        <p class="texto">Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e
+          vem sendo
+          utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou
+          para
+          fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para
+          a
+          editoração eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a
+          Letraset lançou decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser
+          integrado
+          a softwares de editoração eletrônica como Aldus PageMaker.</p>
+        <a href="#">SAIBA MAIS</a>
+      </div>
+      <div class="logo"></div>
+    </div>
+    <div id="localizacao">
+      <div class="texto container">
+        <div class="icone">
+          <object type="image/svg+xml" data="assets/img/icon/marker_yellow.svg" class="svg"></object>
+        </div>
+        <p>Localização</p>
+      </div>
+    </div>
+    <div id="mapa">
       <iframe width="100%" height="750" style="border: 0" loading="lazy" allowfullscreen="false"
         referrerpolicy="no-referrer-when-downgrade"
         src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJOzOopZNGJ5URNvlen3zfF90&key=AIzaSyB9twuOgow4i5eyVNHETvVHLe-GZhUNZjM&center=-27.436834, -48.457190">
@@ -49,8 +81,40 @@
     </div>
   </main>
   <footer>
-    <div id="realizacao"></div>
-    <div id="contato">
+    <div id="apoio">
+      <div class="container">
+        <div class="realizacao">
+          <p>REALIZAÇÃO:</p>
+          <img src="/assets/img/sul.webp" alt="SUL" />
+          <img src="/assets/img/rk.webp" alt="RK" />
+        </div>
+        <div class="midia">
+          <p>MÍDIA PARTNER:</p>
+          <img src="/assets/img/nsc.webp" alt="NSC" style="filter: invert(0) grayscale(1) brightness(2);" />
+        </div>
+      </div>
+    </div>
+    <div id="bottom">
+      <div class="container">
+        <div class="contatos">
+          <img src="/assets/img/icon/telefone.svg" alt="Telefone" />
+          <div class="texto">
+            <p>CONTATO</p>
+            <p><a href="tel:6031112298">Enviar e-mail</a> | <a href="tel:6031112298">Enviar e-mail</a></p>
+            <a href="mailto:email@provedor.com.br">Enviar e-mail</a>
+          </div>
+        </div>
+        <div class="endereco">
+          <img src="/assets/img/icon/marker_red.svg" alt="Marker" />
+          <div class="texto">
+            <p>ENDEREÇO</p>
+            <p>Rodovia</p>
+            <p>Rodovia</p>
+          </div>
+        </div>
+        <div class="redes"></div>
+      </div>
+      <p class="copy">Copyright @ 2017 Show de Verão. Todos os direitos reservados.</p>
       <div id="marca-dagua"></div>
     </div>
   </footer>
